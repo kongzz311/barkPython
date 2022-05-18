@@ -1,5 +1,5 @@
 import requests
-from keys import keys
+from .keys import keys
 
 def post(key=None, keyName = None, category=None, title=None, body=None, automaticallyCopy=None,
          copy=None, group=None, icon=None, level=None, sound = None):

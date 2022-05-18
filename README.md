@@ -13,3 +13,11 @@ keys = {
 ```
 
 run it by call the function `post` in sentBark.py
+
+```python
+from barkPython import sendBark
+
+sendBark.post(keyName='iphont11Key', title='iphone11',
+              body='iphone11', level='timeSensitive', sound='anticipate')
+
+```
